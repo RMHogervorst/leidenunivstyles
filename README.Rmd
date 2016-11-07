@@ -36,3 +36,7 @@ It will make presentaions look more like the powerpoint presentations.
 
 At the moment it is very much a work in progress. 
 
+
+Install using: devtools::install_github("Rmhogervorst/leidenunivstyles")
+
+

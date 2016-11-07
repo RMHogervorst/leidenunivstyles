@@ -13,3 +13,5 @@
 This is a collection of styles you can use in r to help you in your presentations. It will make presentaions look more like the powerpoint presentations.
 
 At the moment it is very much a work in progress.
+
+Install using: devtools::install\_github("Rmhogervorst/leidenunivstyles")
