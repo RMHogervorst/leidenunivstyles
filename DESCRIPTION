@@ -7,6 +7,7 @@ Maintainer: hogervorst [dot] rm [at] gmail.com
 Description: This is  a set of templates to use in presentations
     etc. This makes it easier to create a presentation that looks
     like the leidenuniv style presentations templates in powerpoint.
+Depends: R (>= 3.3.1)
 License: MIT + file LICENSE
 LazyData: TRUE
 RoxygenNote: 5.0.1
