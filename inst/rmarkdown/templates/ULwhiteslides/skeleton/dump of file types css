@@ -1,0 +1,91 @@
+dump
+
+
+/* This styles document will change the colours
+and styles of your presentations.
+If you like to change it, copy the file and change that, then refer in your rmarkdown document to you new .css file. I have tried to emulate the Leiden University style guide.
+
+Created by Roel M. Hogervorst 2016-04-15 */
+
+
+/* using the leiden univ font
+vestula or if that doesn't work
+use Verdana, or Georgia for screens
+
+
+@font-face { font-family: minion;
+src: url('MinionPro-Regular.otf'); }
+ @font-face { font-family: minion; font-weight: bold; src: url('MinionPro-Bold.otf');}
+ @font-face {font-family: minion ; font-weight:
+     italic; src: url('MinionPro-It.otf') }
+*/
+/*
+@font-face {
+font-family: 'minion';
+src: url('webfont.eot'); /* IE9 Compat Modes */
+/* src: url('webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+/*     url('webfont.woff') format('woff'), /* Modern Browsers */
+/*     url('webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+/*     url('webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+/* }
+
+
+body, td {
+   font-family: minion, vestula, verdana, georgia ;
+   background-color: white;
+   font-size: 13px;
+}
+
+/* logo on titlepage and element */
+.gdbar img {
+  width: 300px !important;
+  height: 150px !important;
+  margin: 8px 8px;
+}
+
+.gdbar {
+  width: 400px !important;
+  height: 170px !important;
+}
+
+/* logo in footer of each slide size
+slides > slide:not(.nobackground):before {
+  width: 150px;
+  height: 75px;
+  background-size: 150px 75px;
+}
+
+h1, h2, h3 {
+    font-family: Minion, italic;
+}
+*/
+
+
+.footer {
+    color: black;
+    background: #E8E8E8;
+    position: fixed;
+    top: 90%;
+    text-align:center;
+    width:100%;
+}
+
+
+/* auto hyphenation off
+.reveal h1, .reveal h2, .reveal h3 {
+  word-wrap: normal;
+  -moz-hyphens: none;
+}
+*/
+/* for placement of images
+.midcenter {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+}
+*/
+/* custum style for first page of presentation
+.titlepage {
+
+}
+*/
